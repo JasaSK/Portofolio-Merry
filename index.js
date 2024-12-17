@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const textElement = document.getElementById("typing-text");
-    const text = "Halo, saya Merry"; // Ubah teks sesuai keinginan Anda
+    const text = "Halo, saya Jasa"; // Ubah teks sesuai keinginan Anda
     let index = 0;
   
     function typeText() {
