@@ -1,0 +1,384 @@
+/* Responsiveness */
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 15px 50px;
+    display: none;
+  }
+
+
+  .navbar ul {
+    gap: 20px;
+  }
+
+  #home {
+    flex-direction: column;
+    padding: 50px 5%;
+    text-align: center;
+  }
+
+  .home-content img {
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  .home-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .home-text p {
+    font-size: 1rem;
+  }
+  #about {
+    padding: 40px 5%;
+  }
+
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-image {
+    width: 250px;
+  }
+
+  .about-content {
+    max-width: 500px;
+  }
+
+  .about-content h2 {
+    font-size: 2rem;
+  }
+
+  .about-content p {
+    font-size: 1rem;
+  }
+
+  .btn-about {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+  }
+  #service {
+    padding: 40px 20px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .section-description {
+    font-size: 0.95rem;
+  }
+
+  .service-cards {
+    gap: 15px;
+  }
+
+  .service-card {
+    width: 250px;
+  }
+
+  .service-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .service-card p {
+    font-size: 0.95rem;
+  }
+  #portofolio {
+    padding: 50px 20px;
+  }
+
+  .section-title {
+    font-size: 2.2rem;
+  }
+
+  .section-description {
+    font-size: 1rem;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+  }
+
+  .portfolio-image {
+    height: 220px;
+  }
+
+  .portfolio-overlay h3 {
+    font-size: 1.4rem;
+  }
+
+  .portfolio-overlay p {
+    font-size: 0.95rem;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 10px 30px;
+  }
+
+  .navbar ul {
+    gap: 15px;
+  }
+
+  section {
+    padding: 80px 5%;
+  }
+
+  .home-text h1 {
+    position: relative;
+    top: 20px;
+    font-size: 2rem;
+  }
+
+  .home-text p {
+    position: relative;
+    top: 20px;
+    font-size: 0.9rem;
+  }
+
+  .home-content img {
+    width: 250px;
+  }
+
+  .typing-container {
+    position: relative;
+    top: 20px;
+    font-size: 1.8rem;
+    
+  }
+  #home {
+    padding: 0 3%;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 5%;
+  }
+
+  .home-text h1 {
+    font-size: 2rem;
+  }
+
+  .home-text p {
+    font-size: 1rem;
+  }
+
+  .home-content img {
+    width: 250px;
+  }
+
+  .typing-container {
+    font-size: 1.8rem;
+  }
+  #about {
+    padding: 30px 5%;
+  }
+
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-image {
+    width: 220px;
+  }
+
+  .about-content {
+    max-width: 400px;
+  }
+
+  .about-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .about-content p {
+    font-size: 1rem;
+  }
+
+  .btn-about {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+  }
+  #service {
+    padding: 30px 15px;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .section-description {
+    font-size: 0.9rem;
+  }
+
+  .service-cards {
+    gap: 10px;
+  }
+
+  .service-card {
+    width: 220px;
+  }
+
+  .service-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .service-card p {
+    font-size: 0.9rem;
+  }
+  #portofolio {
+    padding: 40px 15px;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .section-description {
+    font-size: 0.95rem;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+  }
+
+  .portfolio-image {
+    height: 200px;
+  }
+
+  .portfolio-overlay h3 {
+    font-size: 1.3rem;
+  }
+
+  .portfolio-overlay p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #home {
+    
+    text-align: center;
+    padding: 0px 3%;
+    flex-direction: column;
+  }
+
+  .home-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .home-text p {
+    font-size: 0.8rem;
+  }
+
+  .home-content img {
+    width: 200px;
+  }
+
+  .typing-container {
+    font-size: 1.5rem;
+  }
+  #about {
+    padding: 20px 5%;
+  }
+
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-image {
+    width: 180px;
+  }
+
+  .about-content {
+    max-width: 320px;
+    text-align: center;
+  }
+
+  .about-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .about-content p {
+    font-size: 0.9rem;
+  }
+
+  .btn-about {
+    padding: 8px 12px;
+    font-size: 0.8rem;
+  }
+  #service {
+    padding: 20px 10px;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  .section-description {
+    font-size: 0.85rem;
+  }
+
+  .service-cards {
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .service-card {
+    width: 200px;
+  }
+
+  .service-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .service-card p {
+    font-size: 0.85rem;
+  }
+  #portofolio {
+    padding: 30px 10px;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  .section-description {
+    font-size: 0.9rem;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+  }
+
+  .portfolio-image {
+    height: 180px;
+  }
+
+  .portfolio-overlay h3 {
+    font-size: 1.2rem;
+  }
+
+  .portfolio-overlay p {
+    font-size: 0.85rem;
+  }
+
+}
